@@ -93,7 +93,7 @@ public class RestClientProxyTest {
 
     @Test
     public void testHTTP2() {
-        RestClientBuilderImpl builder = (RestClientBuilderImpl) RestClientBuilder.newBuilder().baseUri(URI.create("https://nghttp2.org:443/"));
+        RestClientBuilderImpl builder = (RestClientBuilderImpl) RestClientBuilder.newBuilder().baseUri(URI.create("https://nghttp2.org/"));
         Vertx vertx = Vertx.vertx();
 
         HttpClientOptions options = new HttpClientOptions();
